@@ -3,8 +3,7 @@ import numpy.random as rd
 
 
 class Perlin:
-    def __init__(self, d=3):
-        self.d = d
+    def __init__(self):
 
         # Compute gradient vector
         #self.GV = self.gradientVector()

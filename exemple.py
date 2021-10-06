@@ -20,7 +20,7 @@ def data_gen(t=0):
 
         yield P
 
-        t += 0.1
+        t += 0.05
 
 
 def run(data):
@@ -30,6 +30,6 @@ def run(data):
 
 
 ani = ani.FuncAnimation(fig, run, data_gen, blit=False,
-                        interval=100, repeat=False)
+                        interval=50, repeat=False)
 plt.tight_layout()
 plt.show()
